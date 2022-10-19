@@ -1,0 +1,16 @@
+.App {
+display: flex;
+justify-content: space-between;
+align-items: center;
+min-height: 100vh;
+height: 100%;
+flex-direction: column;
+background-color: #222020;
+}
+
+.Movie_container {
+ display: grid;
+ width: 100%;
+grid-template-columns: 1fr 1fr 1fr;
+ padding: 50px;
+}
